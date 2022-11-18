@@ -24,6 +24,7 @@ const Details = (props: Props) => {
         <input
           id="name"
           type="text"
+          placeholder="Name"
           className={style.input}
           value={details.name}
           onChange={(e) => {
@@ -36,6 +37,7 @@ const Details = (props: Props) => {
         <input
           id="title"
           type="text"
+          placeholder="Title"
           className={style.input}
           value={details.title}
           onChange={(e) => {
@@ -48,6 +50,7 @@ const Details = (props: Props) => {
         <input
           id="company"
           type="text"
+          placeholder="Company"
           className={style.input}
           value={details.company}
           onChange={(e) => {
@@ -60,6 +63,7 @@ const Details = (props: Props) => {
         <input
           id="email"
           type="email"
+          placeholder="Email address"
           className={style.input}
           value={details.email}
           onChange={(e) => {
@@ -72,6 +76,7 @@ const Details = (props: Props) => {
         <input
           id="website"
           type="text"
+          placeholder="Website"
           className={style.input}
           value={details.website}
           onChange={(e) => {
